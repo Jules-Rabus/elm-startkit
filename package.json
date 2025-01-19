@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "elm": "^0.19.1-6"
+  },
+  "scripts": {
+    "init": "elm init",
+    "build:html": "elm make src/Main.elm",
+    "build": "elm make src/truc.elm --output=elm.js",
+    "build:optimize": "elm make src/Main.elm --output=elm.js --optimize",
+    "dev": "elm reactor"
+  }
+}
