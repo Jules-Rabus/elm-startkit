@@ -7,11 +7,11 @@
   },
   "scripts": {
     "init": "elm init",
-    "install": "elm install",
+    "elm:install": "elm install",
     "build:html": "elm make src/Main.elm",
     "build": "elm make src/main.elm --output=dist/main.js",
     "build:optimize": "elm make src/Main.elm --output=dist/main.js --optimize",
-    "tailwind": "tailwindcss -i styles.css -o dist/styles.css",
+    "tailwind": "tailwindcss -o dist/styles.css",
     "dev": "elm reactor"
   }
 }
